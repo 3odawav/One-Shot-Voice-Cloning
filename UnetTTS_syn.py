@@ -3,7 +3,7 @@ from pathlib import Path
 
 import numpy as np
 import soundfile as sf
-import tensorflow as tf
+import tensorflow as tf # type: ignore
 import yaml
 from tensorflow_tts.audio_process import preprocess_wav
 from tensorflow_tts.audio_process.audio_spec import AudioMelSpec
